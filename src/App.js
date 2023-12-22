@@ -31,16 +31,7 @@ function App() {
 
   return (
     <div className="App">
-        <BrowserRouter basename="/holiday">
-    <Routes>
-    <Route exact path="/holiday" element={<Card />} />
-      <Route path='/mama' element={<Mama/>}/>
-      <Route path="/papa" element={<Papa />} />
-      <Route path="/naza" element={<Naza />} />
-      <Route path="/mahir" element={<Mahir />} />
-      <Route path="/teymur" element={<Teymur />} />
-    </Routes>
-</BrowserRouter> 
+
 <div className="card">
       <div id="shell">
       <div id="container">
