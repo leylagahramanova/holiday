@@ -12,9 +12,9 @@ import Card from './pages/Card';
 function App() {
  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/card">
     <Routes>
-    <Route exact path="/" element={<Card />} />
+    <Route exact path="//card" element={<Card />} />
       <Route path='/mama' element={<Mama/>}/>
       <Route path="/papa" element={<Papa />} />
       <Route path="/naza" element={<Naza />} />
