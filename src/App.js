@@ -7,13 +7,15 @@ import Mahir from './pages/Mahir';
 import Naza from './pages/Naza';
 import Mama from './pages/Mama';
 import Papa from './pages/Papa';
+import Card from './pages/Card';
 
 function App() {
  
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/mama/' element={<Mama/>}/>
+    <Route exact path="/" element={<Card />} />
+      <Route path='/mama' element={<Mama/>}/>
       <Route path="/papa" element={<Papa />} />
       <Route path="/naza" element={<Naza />} />
       <Route path="/mahir" element={<Mahir />} />
