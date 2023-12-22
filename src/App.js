@@ -9,7 +9,7 @@ import Mama from './pages/Mama';
 import Papa from './pages/Papa';
 import Card from './pages/Card';
 
-function App() {
+function App() { 
  
   return (
     <BrowserRouter basename="/card">
