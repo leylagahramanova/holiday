@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import {
   BrowserRouter,
-  Switch,
+  Router,
   Route,
   Link,
   HashRouter,
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
          <BrowserRouter>
       <HashRouter basename="/">
-      <Switch>
+      <Router>
 
           <Route exact path='/card' element={<Card/>}/>
         <Route path='/mama' element={<Mama/>}/>
@@ -30,7 +30,7 @@ function App() {
         <Route path="/mahir" element={<Mahir />} />
         <Route path="/teymur" element={<Teymur />} />
 
-      </Switch>
+      </Router>
       </HashRouter>
     </BrowserRouter>
     </div>
