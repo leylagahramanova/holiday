@@ -12,7 +12,6 @@ import Card from './pages/Card';
 function App() { 
   return (
     <div className="App">
-    <Route exact path="/holiday" element={<Card />} />
       <Route path='/mama' element={<Mama/>}/>
       <Route path="/papa" element={<Papa />} />
       <Route path="/naza" element={<Naza />} />
