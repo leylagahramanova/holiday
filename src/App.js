@@ -1,5 +1,11 @@
 import logo from './logo.svg';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link,
+  HashRouter,
+} from "react-router-dom";
 import React from "react";
 import './App.css';
 import Teymur from './pages/Teymur';
@@ -13,15 +19,20 @@ function App() {
   return (
     
     <div className="App">
-          <Routes>
+         <BrowserRouter>
+      <HashRouter basename="/">
+      <Switch>
+
           <Route exact path='/card' element={<Card/>}/>
         <Route path='/mama' element={<Mama/>}/>
         <Route path="/papa" element={<Papa />} />
         <Route path="/naza" element={<Naza />} />
         <Route path="/mahir" element={<Mahir />} />
         <Route path="/teymur" element={<Teymur />} />
-      </Routes>
 
+      </Switch>
+      </HashRouter>
+    </BrowserRouter>
     </div>
   
   );
