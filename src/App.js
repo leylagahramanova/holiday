@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useMemo, useState } from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
 import './App.css';
 import Teymur from './pages/Teymur';
 import Mahir from './pages/Mahir';
@@ -11,12 +11,16 @@ import Card from './pages/Card';
 
 function App() { 
   return (
+    
     <div className="App">
-      <Route path='/mama' element={<Mama/>}/>
-      <Route path="/papa" element={<Papa />} />
-      <Route path="/naza" element={<Naza />} />
-      <Route path="/mahir" element={<Mahir />} />
-      <Route path="/teymur" element={<Teymur />} />
+          <Routes>
+          <Route path='/card' element={<Card/>}/>
+        <Route path='/mama' element={<Mama/>}/>
+        <Route path="/papa" element={<Papa />} />
+        <Route path="/naza" element={<Naza />} />
+        <Route path="/mahir" element={<Mahir />} />
+        <Route path="/teymur" element={<Teymur />} />
+      </Routes>
 
     </div>
   
