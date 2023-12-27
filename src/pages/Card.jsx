@@ -27,7 +27,7 @@ function Card() {
       <div id="shell">
       <div id="container">
         <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
-          <h1>Click me</h1>
+          <h1>Click ffffffffme</h1>
         </div>
         <div id="box1_back" className="box">
               <video autoPlay muted loop className="video__container">

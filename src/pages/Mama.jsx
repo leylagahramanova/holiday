@@ -27,7 +27,7 @@ function Mama() {
       <div id="shell">
       <div id="container">
         <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
-          <h1>Click me</h1>
+          <h1>Click mfgdgdfe</h1>
         </div>
         <div id="box1_back" className="box">
               <video autoPlay muted loop className="video__container">
@@ -36,7 +36,7 @@ function Mama() {
               </video>
             </div>
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
-              <h6>Happy blah! blah! blah!<br /> whatever<br/>blah! blah! blah! your Welcome.</h6>
+              <h6>H<br /> whatever<br/>blah! blah! blah! your Welcome.</h6>
             </div>
           </div>
         </div>
