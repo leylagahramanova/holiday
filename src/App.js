@@ -10,6 +10,7 @@ import Card from './pages/Card';
 import { HashRouter  } from 'react-router-dom';
 function App() {
   return (
+    <HashRouter >
       <Routes><Route  path='/' element={<Card />} />
           <Route path='/mama' element={<Mama />} />
           <Route path="/papa" element={<Papa />} />
@@ -17,6 +18,8 @@ function App() {
           <Route path="/mahir" element={<Mahir />} />
           <Route path="/teymur" element={<Teymur />} />
           </Routes>
+          
+    </HashRouter>
   );
 }
 
