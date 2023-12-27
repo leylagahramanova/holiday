@@ -7,10 +7,10 @@ import Naza from './pages/Naza';
 import Mama from './pages/Mama';
 import Papa from './pages/Papa';
 import Card from './pages/Card';
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter  } from 'react-router-dom';
 function App() {
   return (
-    <Router >
+    <HashRouter >
       <Routes><Route  path='/' element={<Card />} />
           <Route path='/mama' element={<Mama />} />
           <Route path="/papa" element={<Papa />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/teymur" element={<Teymur />} />
           </Routes>
           
-    </Router>
+    </HashRouter>
   );
 }
 
