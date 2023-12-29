@@ -27,16 +27,16 @@ function Mama() {
       <div id="shell">
       <div id="container">
         <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
-          <h1>Click mfgdgdfe</h1>
+          <h1>Click</h1>
         </div>
-        <div id="box1_back" className="box">
-              <video autoPlay muted loop className="video__container">
-                <source src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+    
+            <div id="box1_back" className="box">
+            <div i className="video__container">
+</div>
+</div>
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
-              <h6>H<br /> whatever<br/>blah! blah! blah! your Welcome.</h6>
+              <h2>
+              Желаю меньше глупых людей в твоей жизни и больше здоровья</h2>
             </div>
           </div>
         </div>

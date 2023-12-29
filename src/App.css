@@ -1,77 +1,168 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,130;1,120&display=swap');
+*
+{
+ font-family: "Roboto", serif ;
 }
 body{
-  background-image: url(https://img.freepik.com/free-vector/christmas-pattern-background-cute-winter-doodle-cream-color-vector_53876-156547.jpg);
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1062-pattern-15c_1-ktvc6bvl.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=040730df7a06e34c8397495d9b13499b);
   margin: 0px;	
+  padding:0px;
   z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.App{
+  margin: 0px;	
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin:50px 0px;
 }
 p{
   color: white;
-  font-family: 'lobster';
   font-size: 150%;
   position: absolute;
   left: 50%;
-  tmargin: 10px 0px;
+  margin: 10px 0px;
   top: 0px;
   transform: translateX(-50%);
 }
-		
+
 #container, #shell{
-	width: 11rem;
-    height: 25rem;
-	display: flex;
-  justify-content:center;
+	width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	position: relative;
 	z-index: 10;
-	margin: 50px 0px;
 
 }
+
 #container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	width: 100%;
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;
   box-shadow: 5px 10px #888888;}
 #shell{
-	left: 50%;
-	perspective: 1400px;
-	transition: all .5s ease;
-  -webkit-transition: all .5s ease;		
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  left: 50%;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  transform: translateX(-50%);	
+}
+@media screen and (max-width: 1050px){
+  #container, #shell{
+    width: 350px;
+      height: 450px;
+  
+  }
+  
+}
+@media screen and (max-width: 980px){
+  #container, #shell{
+    width: 320px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 850px){
+  #container, #shell{
+    width: 300px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 800px){
+  #container, #shell{
+    width: 300px;
+      height: 450px;
+  
+  }
+
+  
+}
+@media screen and (max-width: 700px){
+  #container, #shell{
+    width: 280px;
+      height: 450px;
+  
+  }
+	h2{
+    font-size: 20px;
+    color: #1a1a1a;
+    position: relative;
+    width: 100%;
+    padding-right:5px;
+    padding-left:5px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+  }	
+  
+}
+@media screen and (max-width: 690px){
+  #container, #shell{
+    width: 270px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 580px){
+  #container, #shell{
+    width: 250px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 580px){
+  #container, #shell{
+    width: 230px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 500px){
+  #container, #shell{
+    width: 180px;
+      height: 450px;
+  
+  }
+}
+@media screen and (max-width: 400px){
+  #container, #shell{
+    width: 170px;
+      height: 350px;
+  
+  }
+}
+@media screen and (max-width: 370px){
+  #container, #shell{
+    width: 160px;
+      height: 350px;
+  
+  }
+}
+@media screen and (max-width: 300px){
+  #container, #shell{
+    width: 130px;
+      height: 280px;
+  
+  }
 }
 .box{
   width:100%;
@@ -91,54 +182,64 @@ div#box1{
   transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: hidden;
   z-index: 10;
+}.moving-image {
+  animation: moveGIF 5s linear infinite;
 }
 
+
+.gif-background {
+  background-image: url('https://i.giphy.com/BDucPOizdZ5AI.webp');
+  /* Add other styles such as width, height, position, etc. */
+}
 div#box1_back{
-  background: url(https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color:#fff;
   transform: rotate3d(0, 1, 0, 0deg);
   z-index: 0;
   box-shadow: 5px 10px #888888;
 }
 .video__container {
+  background-image: url(https://i.giphy.com/BDucPOizdZ5AI.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   height: auto;
   min-height: 100%;
   object-fit: cover;
   width: 100%;
 }
 div#box2{
-  background: #9FA;	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #F4F4F3;	
   transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: visible;
   z-index: -1;
 }
 h1{
-  font-family: 'Satisfy', cursive;
-  font-size: 200%;
-  color: #DD3388;
+  font-size: 350%;
+  color: #f2f2f2;
   margin:0px;
   position: relative;
   top: 70%;
-  display: -webkit-box;
+  font-weight: 120;
   width: 100%;
   text-align: center;
-  -webkit-box-pack: center;
   cursor: pointer;
-  -webkit-user-select: none;
   user-select: none;
 }
-h6{
-	font-family: 'lobster', cursive;
-	font-size: 150%;
-	color: #DD3388;
-	margin:0px;
+h2{
+	font-size: 180%;
+	color: #1a1a1a;
 	position: relative;
-	display: -webkit-box;
 	width: 100%;
-	text-align: center;
-	-webkit-box-pack: center;
-	font-weight: 200;
+  padding-right:5px;
+  padding-left:5px;
+  font-weight: normal;
 	cursor: pointer;
-	-webkit-user-select: none;
-	user-select: none;
 }	
