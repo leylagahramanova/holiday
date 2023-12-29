@@ -14,7 +14,7 @@ function Mama() {
     const container = document.getElementById('container');
     const box1 = document.getElementById('box1');
     const box1Back = document.getElementById('box1_back');
-
+ 
     container.style.transform = container.style.transform === 'rotateX(0deg)' ? 'rotateX(10deg)' : 'rotateX(0deg)';
     box1.style.transform = box1.style.transform === 'rotate3d(0, 1, 0, -180deg)' ? 'rotate3d(0, 1, 0, 0deg)' : 'rotate3d(0, 1, 0, -180deg)';
     box1Back.style.transform = box1Back.style.transform === 'rotate3d(0, 1, 0, -180deg)' ? 'rotate3d(0, 1, 0, 0deg)' : 'rotate3d(0, 1, 0, -180deg)';

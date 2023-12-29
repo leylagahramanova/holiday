@@ -186,7 +186,7 @@ div#box1{
   animation: moveGIF 5s linear infinite;
 }
 
-
+ 
 .gif-background {
   background-image: url('https://i.giphy.com/BDucPOizdZ5AI.webp');
   /* Add other styles such as width, height, position, etc. */

@@ -29,7 +29,7 @@ function Papa() {
         <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
           <h1>Click</h1>
         </div>
-    
+     
             <div id="box1_back" className="box">
             <div i className="video__container">
 </div>

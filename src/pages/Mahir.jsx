@@ -33,7 +33,7 @@ function Mahir() {
           <div id="box1_back" className="box">
           <div i className="video__container">
 </div>
-</div> 
+</div>  
           <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
             <h2>
             Jelayu tebe poluchat ot sevo udovolstviya</h2>
