@@ -36,7 +36,7 @@ function Teymur() {
 </div>
           <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
             <h2>
-            İşə görə yox, uşaqlara görə gec gəlməyini arzulayiram</h2>
+            Həmişə uşaqlara görə gec gəlməyini arzulayiram</h2>
           </div>
         </div>
       </div>
