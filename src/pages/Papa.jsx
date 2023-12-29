@@ -36,7 +36,7 @@ function Papa() {
 </div> 
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
               <h2>
-              Желаю меньше 'так себе' и больше здоровья</h2>
+              Jelayu menshe tebe 'tak sebe' i bolshe zdorovya</h2>
             </div>
           </div>
         </div>

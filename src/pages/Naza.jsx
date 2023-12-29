@@ -36,7 +36,7 @@ function Naza() {
 </div> 
           <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
             <h2>
-            Светлых праздников и ярких моментов тебе и Масе всегда</h2>
+            Svetlix prazdnikov i yarkix momentov tebe i Mase </h2>
           </div>
         </div>
       </div>

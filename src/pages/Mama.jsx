@@ -36,7 +36,7 @@ function Mama() {
 </div>
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
               <h2>
-              Sənnin həyatinda daha az axmaq insanlar və daha çox sağlamliq arzulayiram</h2>
+              Sennin heyatinda daha az axmaq insanlar və daha chox sarlamliq arzulayiram</h2>
             </div>
           </div>
         </div>
