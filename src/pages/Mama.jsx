@@ -28,7 +28,7 @@ function Mama() {
       <div id="container">
         <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
           <h1>Click</h1>
-        </div>
+        </div> 
     
             <div id="box1_back" className="box">
             <div i className="video__container">
@@ -36,7 +36,7 @@ function Mama() {
 </div>
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
               <h2>
-              Желаю меньше глупых людей в твоей жизни и больше здоровья</h2>
+              Sənnin həyatinda daha az axmaq insanlar və daha çox sağlamliq arzulayiram</h2>
             </div>
           </div>
         </div>

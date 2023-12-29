@@ -29,14 +29,14 @@ function Teymur() {
       <div id="box1" className="box" onClick={() => containerMove(() => openCard())}>
         <h1>Click</h1>
       </div>
-  
+   
           <div id="box1_back" className="box">
           <div i className="video__container">
 </div>
 </div>
           <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
             <h2>
-            Желаю чтобы ты поздно приходил из-за uşaqlar, а не из-за работы</h2>
+            İşə görə yox, uşaqlara görə gec gəlməyinizi arzulayiram</h2>
           </div>
         </div>
       </div>
