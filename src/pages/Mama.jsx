@@ -15,7 +15,7 @@ function Mama() {
     box1Back.style.transform = box1Back.style.transform === 'rotate3d(0, 1, 0, -180deg)' ? 'rotate3d(0, 1, 0, 0deg)' : 'rotate3d(0, 1, 0, -180deg)';
 
   };
-
+   
   return (
     <div className="App">
       <div className="card">
