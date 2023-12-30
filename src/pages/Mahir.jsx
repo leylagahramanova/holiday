@@ -30,7 +30,7 @@ function Mahir() {
             </div>
             <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
               <h2>
-              Hər şeydən zövq almani arzulayiram</h2>
+              Hər şeydən zövq almağini arzulayiram</h2>
             </div>
           </div>
         </div>
