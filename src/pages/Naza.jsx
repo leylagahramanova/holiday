@@ -30,7 +30,7 @@ function Naza() {
 </div>
 </div>  
           <div id="box2" className="box" onClick={() => containerMove(() => openCard())}>
-            <h2>Sənə və Masyaya bayraminiz mübarək və parlaq anlar</h2>
+            <h2>Sənə və Masyaya bayraminiz mübarək və parlaq anlar arzulayiram</h2>
           </div>
         </div>
       </div>
